@@ -1,0 +1,30 @@
+{
+  "name": "gabival",
+  "version": "1.0.0",
+  "description": "A simple web application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",       // Start the application
+    "build": "webpack --mode production", // Build the production version
+    "test": "jest"                   // Run tests
+  },
+  "dependencies": {
+    "express": "^4.17.1",            // Runtime dependency
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",               // Development dependency
+    "webpack": "^5.52.0"
+  },
+  "engines": {
+    "node": ">=12.0.0",             // Compatible with Node.js 12 or later
+    "npm": ">=6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ayiemba66/hpclassGABIVAL"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "keywords": ["web", "application", "node.js"]
+}
